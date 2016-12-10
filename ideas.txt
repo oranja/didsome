@@ -1,0 +1,24 @@
+didso.me/good
+didso.me/bad
+
+Kitten
+Puppy
+Bunny
+Baby Panda
+Fairy
+Baby?
+
+front: vue.js / aurelia.js
+back: python + flask/aiohttp + sqlalchemy
+
+abuse? flask-limiter
+authentication? just a token
+website or app? API is a *must*. prefer website.
+
+
+Event
+
+A <cute> <died / was born>
+when <person> <deed>
+
+
