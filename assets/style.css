@@ -1,0 +1,55 @@
+.aurelia-hide {
+	display:none !important;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	width: 600px;
+  background-color: cadetblue;
+	font-weight: bold;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+	border-radius: 0 0 15px 15px;
+	background-color: #eeeeee30;
+	width: 600px;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: large;
+}
+
+h1 {
+	margin: 0;
+	color: beige;
+}
+
+main {
+	margin: 3em 1em 3rem 6rem;
+}
+
+main p {
+	font-size: x-large;
+	color: gold;
+}
+main input {
+	border-style: none none dotted none;
+	border-width: 3px;
+  background-color: cadetblue;
+	font-size: inherit;
+}
+
+footer {
+	border-radius: 20px 20px 0 0;
+	background-color: #eeeeee30;
+	position: absolute;
+	bottom: 0;
+	padding-left: 2em;
+	padding-right: 2em;
+	width: 600px;
+}

@@ -1,0 +1,24 @@
+<template>
+    <require from="assets/style.css"></require>
+    <header>
+    <h1>didsome</h1>
+    </header>
+
+    <main>
+    <h2>what happend?</h2>
+    <form submit.trigger="addDeed()">
+        <p><label>A <input type="text" id="cute" value.bind="cute" /></label></p>
+        <p>
+            <label><input type="radio" name="what" model.bind="false" checked.bind="good" />died</label>
+            <label><input type="radio" name="what" model.bind="true" checked.bind="good" />was born</label>
+        </p>
+        <p><label>when <input type="text" value.bind="who" /></label></p>
+        <p><input type="text" value.bind="how" placeholder="did"></p>
+    </form>
+    </main>
+
+    <footer>
+        <p>Created by @oranja (Itzik Ephraim)</p>
+        <p><time date="2016-12">December 2016</time></p>
+    </footer>
+</template>
